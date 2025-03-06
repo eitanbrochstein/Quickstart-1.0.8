@@ -1,0 +1,30 @@
+repositories {
+    mavenCentral()
+    google()
+
+    maven { url = 'https://maven.brott.dev/' }
+    maven { url= "https://maven.pedropathing.com/" }
+    maven { url = "https://jitpack.io" }
+
+}
+
+dependencies {
+    implementation 'org.firstinspires.ftc:Inspection:10.2.0'
+    implementation 'org.firstinspires.ftc:Blocks:10.2.0'
+    implementation 'org.firstinspires.ftc:RobotCore:10.2.0'
+    implementation 'org.firstinspires.ftc:RobotServer:10.2.0'
+    implementation 'org.firstinspires.ftc:OnBotJava:10.2.0'
+    implementation 'org.firstinspires.ftc:Hardware:10.2.0'
+    implementation 'org.firstinspires.ftc:FtcCommon:10.2.0'
+    implementation 'org.firstinspires.ftc:Vision:10.2.0'
+    implementation 'com.pedropathing:pedro:1.0.8'
+    implementation 'org.dyn4j:dyn4j:5.0.2'
+    implementation 'org.reflections:reflections:0.10.2'
+    implementation 'com.github.WilliamAHartman:Jamepad:1.4.0'
+    implementation 'uk.co.electronstudio.sdl2gdx:sdl2gdx:1.0.4'
+
+    //noinspection GradleDependency
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.acmerobotics.dashboard:dashboard:0.4.16'
+}
+
