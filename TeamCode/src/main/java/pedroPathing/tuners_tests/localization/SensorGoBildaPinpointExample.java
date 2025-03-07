@@ -125,7 +125,6 @@ public class SensorGoBildaPinpointExample extends LinearOpMode {
 
         // Wait for the game to start (driver presses START)
         waitForStart();
-        resetRuntime();
 
 
         // run until the end of the match (driver presses STOP)
