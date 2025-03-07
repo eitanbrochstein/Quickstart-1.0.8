@@ -1,7 +1,5 @@
 package virtual_robot.controller;
 
-import android.graphics.Path;
-
 import com.qualcomm.robotcore.eventloop.opmode.*;
 import com.qualcomm.robotcore.hardware.*;
 import com.qualcomm.robotcore.util.Range;
@@ -68,8 +66,7 @@ public class VirtualRobotController {
     @FXML ImageView imgViewBackground;
     @FXML private ComboBox<Class<?>> cbxConfig;
     @FXML private Button driverButton;
-    @FXML private ComboBox<Class<?>> cbx
-        s;
+    @FXML private ComboBox<Class<?>> cbxOpModes;
     @FXML private Slider sldRandomMotorError;
     @FXML private Slider sldSystematicMotorError;
     @FXML private Slider sldMotorInertia;
@@ -706,7 +703,7 @@ public class VirtualRobotController {
     public void updateTelemetryDisplay(String telemetryText) {
         txtTelemetry.setText(telemetryText);
     }
-		
+
     @FXML
     private void handleCheckBoxAutoHumanAction(ActionEvent event){
         Config.GAME.setHumanPlayerAuto(checkBoxAutoHuman.isSelected());
